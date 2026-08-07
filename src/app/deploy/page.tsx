@@ -30,7 +30,7 @@ export default function DeployPage() {
     e.preventDefault();
     if (!name.trim()) return;
 
-    addSensor(name, type, temp, vibration, battery);
+    addSensor(name, type, Number(temp) || 0, Number(vibration) || 0, Number(battery) || 0);
     router.push("/");
   };
 

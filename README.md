@@ -1,5 +1,7 @@
 # 📡 track&lost | Device Monitor
 
+> **Note**: This repository contains the **demo mode** version of the dashboard. Sensor data, alerts, and node deployments are fully simulated on the client-side to demonstrate the UI/UX capabilities.
+
 A state-of-the-art environmental sensor dashboard built with Next.js. **track&lost** provides a premium, native-feeling command center for monitoring tracking nodes, environmental data, and hardware metrics in real-time.
 
 ---

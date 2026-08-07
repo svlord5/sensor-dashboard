@@ -122,7 +122,7 @@ export const SensorGrid: React.FC<SensorGridProps> = ({ onViewDetails, onTrouble
           {/* Type Filter */}
           <div className="flex items-center gap-2">
             <Filter size={14} className="text-muted-foreground hidden sm:block" />
-            <Select value={typeFilter} onValueChange={(v) => setTypeFilter(v)}>
+            <Select value={typeFilter} onValueChange={(v) => setTypeFilter(v || "All Types")}>
               <SelectTrigger className="h-9 w-[150px] bg-background border-border text-foreground text-xs shadow-sm">
                 <SelectValue placeholder="Category" />
               </SelectTrigger>
@@ -137,7 +137,7 @@ export const SensorGrid: React.FC<SensorGridProps> = ({ onViewDetails, onTrouble
           </div>
 
           {/* Status Filter */}
-          <Select value={statusFilter} onValueChange={(v) => setStatusFilter(v)}>
+          <Select value={statusFilter} onValueChange={(v) => setStatusFilter(v || "All Healths")}>
             <SelectTrigger className="h-9 w-[130px] bg-background border-border text-foreground text-xs shadow-sm">
               <SelectValue placeholder="Status" />
             </SelectTrigger>
