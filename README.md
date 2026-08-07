@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📡 track&lost | Device Monitor
 
-## Getting Started
+A state-of-the-art environmental sensor dashboard built with Next.js. **track&lost** provides a premium, native-feeling command center for monitoring tracking nodes, environmental data, and hardware metrics in real-time.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Operations Room**: A high-level overview of active tracking nodes, real-time metrics (Temperature, Vibration, Battery), and live data visualization.
+- **Analytics & Feeds**: Detailed charting and a live feed of alerts/logs from deployed field devices.
+- **Control Center (Deploy Tracker)**: A sleek interface to calibrate and deploy new hardware nodes into the tracking ecosystem.
+- **Premium Glassmorphic UI**: Features a meticulously crafted, responsive design system. Includes a frosted-glass bottom mobile navigation, dynamic light/dark modes, and native-feeling interactions (without the ugly scrollbars!).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 💻 Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework**: Next.js 14+ (App Router)
+- **Styling**: Tailwind CSS v4
+- **Icons**: Lucide React
+- **UI Architecture**: Custom responsive components inspired by Shadcn/Radix paradigms
 
-## Learn More
+## 🚀 Getting Started
 
-To learn more about Next.js, take a look at the following resources:
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **View the dashboard:**
+   Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎨 Credits & Acknowledgements
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Developed & Designed by [Suraj Vishwanath](https://github.com/svlord5)**
+
+---
